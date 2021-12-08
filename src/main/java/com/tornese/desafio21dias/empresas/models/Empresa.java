@@ -31,10 +31,11 @@ public class Empresa {
   @Column(name = "email", length = 200, nullable = false)
   private String email;
 
+  @JsonFormat(pattern="yyyy-MM-dd HH:MM:SS")
   @Column(name = "data_criacao", nullable = false)
   private LocalDateTime dataCriacao = LocalDateTime.now();
 
-  @JsonFormat(pattern="yyyy-MM-dd")
+  @JsonFormat(pattern="yyyy-MM-dd HH:MM:SS")
   @Column(name = "data_atualizacao", nullable = false)
   private LocalDateTime dataAtualizacao = LocalDateTime.now();
 
