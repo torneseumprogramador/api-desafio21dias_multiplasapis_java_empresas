@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tornese.desafio21dias.empresas.EmpresasApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.46 s - in com.tornese.desafio21dias.empresas.EmpresasApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.629 s - in com.tornese.desafio21dias.empresas.EmpresasApplicationTests

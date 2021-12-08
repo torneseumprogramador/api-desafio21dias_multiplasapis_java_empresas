@@ -1,0 +1,37 @@
+# Created at 2021-12-08T20:08:53.427
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-12-08T20:08:54.466
+Unexpected IOException with stream: 2021-12-08 20:08:54.465  INFO 62573 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2021-12-08T20:08:54.475
+Unexpected IOException with stream: 2021-12-08 20:08:54.475  INFO 62573 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-12-08T20:08:55.293
+Unexpected IOException with stream: 2021-12-08 20:08:55.292  WARN 62573 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2021-12-08T20:08:57.013
+Unexpected IOException with stream: 2021-12-08 20:08:57.013  INFO 62573 --- [           main] c.t.d.empresas.EmpresasApplicationTests  : Started EmpresasApplicationTests in 7.619 seconds (JVM running for 8.887)
+
+
+# Created at 2021-12-08T20:08:57.018
+Unexpected IOException with stream: 2021-12-08 20:08:57.018  INFO 62573 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-12-08T20:08:57.023
+Unexpected IOException with stream: 2021-12-08 20:08:57.023  INFO 62573 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-12-08T20:08:57.040
+Unexpected IOException with stream: 2021-12-08 20:08:57.040  INFO 62573 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+

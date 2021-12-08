@@ -1,5 +1,7 @@
 /Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/controllers/EmpresasController.java
+/Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/services/StaticConfig.java
 /Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/models/Empresa.java
 /Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/model_views/Home.java
 /Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/controllers/HomeController.java
+/Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/repositorio/EmpresaRepo.java
 /Users/danilo/projetos/torne-se/aulas/comunidade/desafio21dia_multiplas_apis/desafio21dias_multiplasapis_java_empresas/src/main/java/com/tornese/desafio21dias/empresas/EmpresasApplication.java
