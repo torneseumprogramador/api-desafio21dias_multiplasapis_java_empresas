@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Entity
 @Table(name = "empresas")
 public class Empresa {
@@ -32,6 +34,7 @@ public class Empresa {
   @Column(name = "data_criacao", nullable = false)
   private LocalDateTime dataCriacao = LocalDateTime.now();
 
+  @JsonFormat(pattern="yyyy-MM-dd")
   @Column(name = "data_atualizacao", nullable = false)
   private LocalDateTime dataAtualizacao = LocalDateTime.now();
 
