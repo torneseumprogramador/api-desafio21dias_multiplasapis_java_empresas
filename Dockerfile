@@ -7,7 +7,8 @@
 
 FROM maven:3.5-jdk-8 AS build  
 COPY . /usr/src/app/
-RUN mvn clean package
+RUN mvn -T 1C clean install -Dmaven.test.skip -DskipTests -Dmaven.javadoc.skip=true
+#RUN mvn clean package
 
 FROM openjdk:8-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
