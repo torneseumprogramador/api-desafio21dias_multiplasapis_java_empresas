@@ -8,7 +8,7 @@
 FROM maven:3.5-jdk-8 AS build  
 COPY . /usr/src/app/
 #RUN mvn -T 1C clean install -Dmaven.test.skip -DskipTests -Dmaven.javadoc.skip=true
-RUN mvn -f /usr/src/app/pom.xml clean package
+RUN mvn -f /usr/src/app/pom.xml clean package -Dmaven.test.skip -DskipTests -Dmaven.javadoc.skip=true
 #RUN mvn clean
 #RUN mvn package -Dmaven.test.skip -DskipTests -Dmaven.javadoc.skip=true
 #RUN mvn clean package
