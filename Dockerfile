@@ -1,6 +1,18 @@
+#FROM openjdk:8-jdk-alpine
+#RUN addgroup -S spring && adduser -S spring -G spring
+#USER spring:spring
+#ARG JAR_FILE=target/*.jar
+#COPY ${JAR_FILE} app.jar
+#ENTRYPOINT ["java","-jar","/app.jar"]
+
+FROM maven:3.5-jdk-8 AS build  
+COPY . /usr/src/app/
+RUN mvn clean package
+
 FROM openjdk:8-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
+COPY --from=build /usr/src/app/target/empresas-0.0.1.jar /app/app.jar 
+#ARG JAR_FILE=/usr/src/app/target/*.jar
+#COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
